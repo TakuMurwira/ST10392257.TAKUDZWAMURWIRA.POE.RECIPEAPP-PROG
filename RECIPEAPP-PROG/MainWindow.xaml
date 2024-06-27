@@ -1,0 +1,64 @@
+﻿<Window x:Class="RECIPEAPP_PROG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RECIPEAPP_PROG"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" Background="#FF0F1F46">
+        
+        <Grid Background="#FF0F1F46" Height="434" Width="800">
+            <Button x:Name="addRecipeBtn" Content="Add Recipe" HorizontalAlignment="Left" Margin="60,90,0,0" VerticalAlignment="Top"  Width="200" Height="30">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="displayRecipeBtn" Content="Display Recipe" HorizontalAlignment="Left" Margin="60,140,0,0" VerticalAlignment="Top" Width="200" Height="30">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="listRecipeBtn" Content="List All Recipes" HorizontalAlignment="Left" Margin="60,190,0,211" Width="200">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="scaleBtn" Content="Scale up/down" HorizontalAlignment="Left" Margin="60,240,0,0" VerticalAlignment="Top" Width="200" Height="30">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="restValuesBtn" Content="Revert Quantities" HorizontalAlignment="Left" Margin="60,290,0,0" VerticalAlignment="Top" Width="200" Height="30">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="clearRecipeBtn" Content="Clear Recipe" HorizontalAlignment="Left" Margin="60,340,0,0" VerticalAlignment="Top" Width="200" Height="30" >
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <Button x:Name="endSessionBtn" Content="End Session" HorizontalAlignment="Left" Margin="630,340,0,0" VerticalAlignment="Top" Width="120" Height="30" Foreground="#FFF7ECEC">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Button.Background>
+                    <SolidColorBrush Color="#FFF04719"/>
+                </Button.Background>
+            </Button>
+            <Label Content="RECIPE APPLICATION" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" Foreground="#FFE1F4DB" FontSize="24" FontFamily="Cascadia Code" FontWeight="Bold"/>
+            <Image Margin="490,120,110,114" Source="/11444-removebg-preview.png" Stretch="Fill" Width="200" Height="200">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <Image Margin="348,140,252,94" Source="/OE612P0-removebg-preview.png" Stretch="Fill" Width="200" Height="200">
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            
+        </Grid>
+    </StackPanel>
+</Window>

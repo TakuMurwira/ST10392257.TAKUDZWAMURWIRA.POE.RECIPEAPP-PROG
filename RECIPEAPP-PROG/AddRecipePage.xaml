@@ -1,0 +1,35 @@
+﻿<Page x:Class="RECIPEAPP_PROG.AddRecipePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      xmlns:local="clr-namespace:RECIPEAPP_PROG"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddRecipePage">
+
+    <Grid Background="#FF0F1F46">
+
+        <Frame x:Name="RecipeFrame" NavigationUIVisibility="Hidden"/>
+        <Label Content="Add Recipe" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFE1F4DB" FontSize="24" FontFamily="Cascadia Code" FontWeight="Bold" Margin="325,-40,0,0" Grid.ColumnSpan="2"/>
+        <Label Content="RECIPE NAME:" HorizontalAlignment="Left" Margin="60,60,0,0" VerticalAlignment="Top" Foreground="#FFEDFAE8" FontSize="20" FontFamily="Bahnschrift SemiBold"/>
+        <TextBox x:Name="RecipeNameTextBox" HorizontalAlignment="Left" Margin="60,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Height="25"/>
+        <Label Content="NUMBER OF INGREDIENTS:" HorizontalAlignment="Left" Margin="60,160,0,0" VerticalAlignment="Top" Foreground="#FFEDFAE8" FontFamily="Bahnschrift SemiBold" FontSize="14"/>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Top" Width="70" Margin="290,160,0,0" Height="25" HorizontalAlignment="Left">
+            <RepeatButton Content="▲" Width="22" Click="UpButton_Click1"/>
+            <TextBox x:Name="NumericTextBox1" Width="26" Text="0" HorizontalContentAlignment="Center" PreviewTextInput="NumericTextBox1_PreviewTextInput" TextAlignment="Center"/>
+            <RepeatButton Content="▼" Width="22" Click="DownButton_Click1"/>
+        </StackPanel>
+        <Label Content="NUMBER OF STEPS:" HorizontalAlignment="Left" Margin="60,200,0,0" VerticalAlignment="Top" Foreground="#FFEDFAE8" FontFamily="Bahnschrift SemiBold" FontSize="14"/>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Top" Width="70" Margin="290,200,0,0" Height="25" HorizontalAlignment="Left">
+            <RepeatButton Content="▲" Width="22" Click="UpButton_Click2"/>
+            <TextBox x:Name="NumericTextBox2" Width="26" Text="0" HorizontalContentAlignment="Center" PreviewTextInput="NumericTextBox2_PreviewTextInput" TextAlignment="Center"/>
+            <RepeatButton Content="▼" Width="22" Click="DownButton_Click2"/>
+        </StackPanel>
+        <Button x:Name="nextBtn" Content="NEXT" HorizontalAlignment="Left" Margin="110,280,0,0" VerticalAlignment="Top" Width="200" Height="30" Click="NextBtn_Click"/>
+        <Image Margin="483,48,0,0" Source="/336756-PAN30H-466-removebg-preview.png" Stretch="Fill" HorizontalAlignment="Left" Width="250" Height="250" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Page>

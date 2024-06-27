@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RECIPEAPP-PROG", "RECIPEAPP-PROG\RECIPEAPP-PROG.csproj", "{22218F49-953F-41FF-9202-26D4C2BDF35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22218F49-953F-41FF-9202-26D4C2BDF35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22218F49-953F-41FF-9202-26D4C2BDF35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22218F49-953F-41FF-9202-26D4C2BDF35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22218F49-953F-41FF-9202-26D4C2BDF35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8B1027D-C8B2-4CED-94F7-62C1F1E74327}
+	EndGlobalSection
+EndGlobal
